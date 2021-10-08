@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fast-pipe"
+version = "0.1.0"
+description = "Library for deploying huggingface models using fastapi"
+authors = ["Nikita Irgashev <nik.irg@yandex.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.11.3"
+fastapi = "^0.70.0"
+torch = "^1.9.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
